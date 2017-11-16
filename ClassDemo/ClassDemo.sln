@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{15AAFA3E-3968-43F3-B8CE-73B30E139C32}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{c9a373e5-a357-437a-b0c8-19160ed48875}|Chinook.Data.dll;{b9f6b525-2ef5-4108-b540-379edec8d539}|ChinookSystem.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60844"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60844\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60844"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60844\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60844"
+		SlnRelativePath = "Website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookSystem", "ChinookSystem\ChinookSystem.csproj", "{B9F6B525-2EF5-4108-B540-379EDEC8D539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Data", "Chinook.Data\Chinook.Data.csproj", "{C9A373E5-A357-437A-B0C8-19160ED48875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15AAFA3E-3968-43F3-B8CE-73B30E139C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AAFA3E-3968-43F3-B8CE-73B30E139C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AAFA3E-3968-43F3-B8CE-73B30E139C32}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AAFA3E-3968-43F3-B8CE-73B30E139C32}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B9F6B525-2EF5-4108-B540-379EDEC8D539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F6B525-2EF5-4108-B540-379EDEC8D539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F6B525-2EF5-4108-B540-379EDEC8D539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F6B525-2EF5-4108-B540-379EDEC8D539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A373E5-A357-437A-B0C8-19160ED48875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A373E5-A357-437A-B0C8-19160ED48875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A373E5-A357-437A-B0C8-19160ED48875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A373E5-A357-437A-B0C8-19160ED48875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
